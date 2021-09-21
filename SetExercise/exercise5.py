@@ -1,7 +1,7 @@
-def remove_item(n, set):
-    if n in set:
-        set.discard(n)
-    return set
+def remove_item(n, set_input):
+    if n in set_input:
+        set_input.discard(n)
+    return set_input
 
 
 new_set = {'catch', 112, 981, 'say', 'lent', 'rent'}

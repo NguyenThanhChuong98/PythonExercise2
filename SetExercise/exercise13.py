@@ -1,5 +1,5 @@
-def frozen_set(set):
-    new_frozen_set = frozenset(set)
+def frozen_set(set_input):
+    new_frozen_set = frozenset(set_input)
     return new_frozen_set
 
 

@@ -1,5 +1,5 @@
-def clear_set(set):
-    set_clear = set.clear()
+def clear_set(set_input):
+    set_clear = set_input.clear()
     return set_clear
 
 

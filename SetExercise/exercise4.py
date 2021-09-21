@@ -1,6 +1,6 @@
-def remove_item(n, set):
+def remove_item(n, set_input):
     set.remove(n)
-    return set
+    return set_input
 
 
 new_set = {'morning', 5, 'lamp', 12, 'development'}

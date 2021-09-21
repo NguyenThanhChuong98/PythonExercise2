@@ -1,6 +1,6 @@
-def add_mem(set, n):
-    set.add(n)
-    return set
+def add_mem(set_input, n):
+    set_input.add(n)
+    return set_input
 
 
 new_set = {"capital", "gender", "bloomer"}

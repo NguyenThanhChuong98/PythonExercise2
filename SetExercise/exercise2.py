@@ -1,5 +1,5 @@
-def iter_set(set):
-    for x in set:
+def iter_set(set_input):
+    for x in set_input:
         return x
 
 

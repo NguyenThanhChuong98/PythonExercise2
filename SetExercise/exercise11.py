@@ -1,5 +1,5 @@
-def create_shallow_copy(set):
-    set_shallow_copy = set.copy()
+def create_shallow_copy(set_input):
+    set_shallow_copy = set_input.copy()
     return set_shallow_copy
 
 
