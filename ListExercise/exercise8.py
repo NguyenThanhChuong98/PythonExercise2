@@ -1,9 +1,8 @@
 def check_list(lst):
-    for x in range(len(lst)):
-        if len(lst) == 0:
-            return None
-        else:
-            return lst
+    if len(lst) == 0:
+        return None
+    else:
+        return lst
 
 
 lst_1 = []

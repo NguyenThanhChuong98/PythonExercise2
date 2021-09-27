@@ -2,8 +2,6 @@ def list_remove_even_numb(lst):
     new_list = []
     for x in lst:
         if x % 2 == 0:
-            pass
-        else:
             new_list.append(x)
     return new_list
 

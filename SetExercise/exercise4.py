@@ -1,5 +1,5 @@
 def remove_item(n, set_input):
-    set.remove(n)
+    set_input.remove(n)
     return set_input
 
 

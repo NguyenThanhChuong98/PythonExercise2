@@ -1,6 +1,6 @@
 def sort_ascend(dict_input):
-    sorted_dict = sorted(dict_input.items(),
-                         key=lambda x: x[1])
+    sorted_dict = sorted(dict_input.values(),
+                         key=lambda x: x)
     return sorted_dict
 
 

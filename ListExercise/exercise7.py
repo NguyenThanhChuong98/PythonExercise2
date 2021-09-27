@@ -1,8 +1,5 @@
 def remove_duplicate_list(lst):
-    new_list = []
-    for x in lst:
-        if x not in new_list:
-            new_list.append(x)
+    new_list = list(set(lst))
     return new_list
 
 

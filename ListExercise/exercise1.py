@@ -1,7 +1,5 @@
 def list_sum(lst):
-    for x in lst:
-        sum_numb = sum(lst)
-        x += 1
+    sum_numb = sum(lst)
     return sum_numb
 
 

@@ -1,7 +1,7 @@
 def get_first_and_last_char(lst):
     count = 0
     for x in lst:
-        if x[0] == x[-1]:
+        if x[0] == x[-1] and len(x) > 1:
             count += 1
     return count
 
